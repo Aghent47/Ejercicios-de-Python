@@ -49,6 +49,14 @@ print(ope.ingresar_Dato())
 print(ope.sumar())
 
 ope2 = Raiz()
-
 print(ope2.ingresar_Dato())#creando objecto para trabajar con la clase Raiz y el metodo cuadrada
 print(ope2.cuadrada())
+
+objecto = OperationsBasic()
+
+#funciones integradas
+print(isinstance(objecto,OperationsBasic))#comprobrar si trabajamos con la funcion indicada
+print(issubclass(Calculator,OperationsBasic))
+print(issubclass(OperationsBasic,Calculator))#comprobrar si la clase OperationsBasic es una Subclase de Calculator
+
+
